@@ -3,7 +3,7 @@ import React from 'react';
 function login() {
     return (
         <div>
-            <form className="row g-3" method='POST' action='http://localhost:5001/register'>
+            <form className="row g-3" method='POST' action='https://techlive-server.onrender.com/register'>
             <div className="col-auto">
                 <label for="staticEmail2" className="visually-hidden">Email</label>
                 <input type="text" readonly className="form-control-plaintext" id="staticEmail2" name="email" placeholder="email@example.com"/>
@@ -16,7 +16,7 @@ function login() {
                 <button type="submit" className="btn btn-primary mb-3">Login Now</button>
             </div>
             </form>
-            <form className="row g-3" method='GET' action='http://localhost:5001/register'>
+            <form className="row g-3" method='GET' action='https://techlive-server.onrender.com/register'>
             <div className="col-auto">
                 <button type="submit" className="btn btn-primary mb-3">Get Count</button>
             </div>
