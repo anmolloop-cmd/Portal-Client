@@ -13,7 +13,7 @@ function login() {
                 <input type="password" className="form-control" id="inputPassword2" name="password" placeholder="Password"/>
             </div>
             <div className="col-auto">
-                <button type="submit" className="btn btn-primary mb-3">Confirm identity</button>
+                <button type="submit" className="btn btn-primary mb-3">Login Now</button>
             </div>
             </form>
             <form className="row g-3" method='GET' action='http://localhost:5001/register'>
